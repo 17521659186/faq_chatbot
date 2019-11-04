@@ -154,7 +154,7 @@ Twisted==19.2.1
 typing==3.6.6
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.23
+urllib3==1.24.2
 uvloop==0.12.2
 wcwidth==0.1.7
 webexteamssdk==1.1.1
