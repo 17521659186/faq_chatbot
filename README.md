@@ -4,10 +4,8 @@
 ## clone 项目到本地
 
 #### 1.创建虚拟环境，安装项目依赖
-'
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
-'
 
 
 ## 添加自己的faq.json文件,文件路径：faq_chatbot/train_data/lancome/0.1/faq.json
