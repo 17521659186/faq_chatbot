@@ -21,6 +21,6 @@
 > POST http://127.0.0.1:8899/chat/bot
 
 数据格式：{
-      user_id: "xxxxx",
-      question: "你好"
+      "user_id": "xxxxx",
+      "question": "你好"
 }
