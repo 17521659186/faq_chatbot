@@ -150,7 +150,7 @@ tornado==6.0.2
 tqdm==4.23.4
 Tubes==0.2.0
 twilio==6.27.1
-Twisted==19.2.1
+Twisted==19.7.0
 typing==3.6.6
 tzlocal==1.5.1
 ujson==1.35
