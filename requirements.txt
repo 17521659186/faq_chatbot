@@ -114,7 +114,7 @@ python-Levenshtein==0.12.0
 python-socketio==2.1.2
 python-telegram-bot==10.1.0
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.1
 rasa-core==0.12.3
 rasa-core-sdk==0.12.2
 rasa-nlu==0.13.8
