@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9376ad3f-6246-45f3-b76b-a6f073f0cde8" name="Default Changelist" comment="" />
+    <list default="true" id="9376ad3f-6246-45f3-b76b-a6f073f0cde8" name="Default Changelist" comment="create project">
+      <change afterPath="$PROJECT_DIR$/train_data/lancome/0.1/__init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/tfidf_legreg/classfier.py" beforeDir="false" afterPath="$PROJECT_DIR$/faq/tfidf_legreg/classfier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,34 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
+        <entry file="file://$PROJECT_DIR$/train/reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#37#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/WxHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -46,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#39#57#0" expanded="true" />
               </folding>
@@ -56,49 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/faq/tfidf_legreg/tfidf_vectorizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="-964">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/BaseHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#39#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/db_util.py">
+        <entry file="file://$PROJECT_DIR$/train/train_helper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/asyncio/base_events.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10142">
-              <caret line="483" selection-start-line="483" selection-end-line="483" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/asyncio/events.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2926">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,34 +67,42 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nltk</find>
+      <find>FAQ is empty</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/train/train_helper.py" />
         <option value="$PROJECT_DIR$/train/context.py" />
-        <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/bot.py" />
         <option value="$PROJECT_DIR$/chat/BaseHandler.py" />
         <option value="$PROJECT_DIR$/common/db_util.py" />
         <option value="$PROJECT_DIR$/settings/setting.py" />
         <option value="$PROJECT_DIR$/chat/WxHandler.py" />
         <option value="$PROJECT_DIR$/train_data/lancome/0.1/faq.json" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/faq/tfidf_legreg/classfier.py" />
+        <option value="$PROJECT_DIR$/train_data/lancome/0.1/__init.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
+    <option name="x" value="399" />
     <option name="y" value="24" />
-    <option name="width" value="1399" />
-    <option name="height" value="874" />
+    <option name="width" value="1476" />
+    <option name="height" value="902" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,13 +120,28 @@
             <path>
               <item name="faq_chatbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="faq_chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
+              <item name="faq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="faq_chatbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="faq_chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
-              <item name="lancome" type="462c0819:PsiDirectoryNode" />
+              <item name="faq" type="462c0819:PsiDirectoryNode" />
+              <item name="tfidf_legreg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faq_chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="faq_chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 virtualenv at ~/.virtualenvs/faq_bot &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="faq_chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 virtualenv at ~/.virtualenvs/faq_bot &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +156,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -206,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.train">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="faq_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,15 +249,15 @@
       <method v="2" />
     </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="faq_bot" />
+      <module name="faq_chatbot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/faq_bot/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -319,16 +294,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.bot" />
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.train_helper" />
         <item itemvalue="Python.reader" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -339,7 +314,11 @@
       <updated>1572509493854</updated>
       <workItem from="1572509495207" duration="16460000" />
       <workItem from="1572605378322" duration="3015000" />
-      <workItem from="1572835612896" duration="898000" />
+      <workItem from="1572835612896" duration="5454000" />
+      <workItem from="1572845975419" duration="6205000" />
+      <workItem from="1572854111168" duration="6475000" />
+      <workItem from="1572922727014" duration="604000" />
+      <workItem from="1573192860766" duration="4654000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1572605693189</created>
@@ -366,28 +345,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20373000" />
+    <option name="totallyTimeSpent" value="42867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1853" height="930" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15401661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21385041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499723" weight="0.70610213" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.58156914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499723" weight="0.5380774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5755306" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.47690386" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500831" side_tool="true" weight="0.54681647" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49916896" visible="true" weight="0.13982522" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50138503" side_tool="true" weight="0.278402" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49861497" weight="0.38327092" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.13448735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,6 +375,58 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="weihe" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="weihe" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
@@ -416,9 +446,9 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/train/reader.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/train/train_helper.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -427,6 +457,8 @@
         <watch expression="os.path.exists(&quot;/home/iblue/Downloads/faq_bot/train_data/lancome/0.1/nlu.json&quot;)" language="Python" />
         <watch expression="self" language="Python" />
         <watch expression="json.loads(self.request.body)" language="Python" />
+        <watch expression="os.path.exists(self.path_context.faq_train_data_path)" />
+        <watch expression="self.path_context.faq_train_data_path" />
       </configuration>
     </watches-manager>
   </component>
@@ -435,6 +467,7 @@
     <SUITE FILE_PATH="coverage/faq_bot$train_helper.coverage" NAME="train_helper Coverage Results" MODIFIED="1572513350074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
     <SUITE FILE_PATH="coverage/faq_bot$train.coverage" NAME="train Coverage Results" MODIFIED="1572514952298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faq_bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1572517025468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faq_chatbot$train.coverage" NAME="train Coverage Results" MODIFIED="1572846184612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faq_bot$app.coverage" NAME="app Coverage Results" MODIFIED="1572604665285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
@@ -487,33 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train/context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train/train_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#37#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/TestHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -528,27 +534,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train/reader.py">
+    <entry file="file://$PROJECT_DIR$/chat/BaseHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#39#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq/tfidf_legreg/tfidf_vectorizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/tfidf_legreg/classfier.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="88">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/argparse.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="483" selection-start-line="483" selection-end-line="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/asyncio/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/db_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_data/lancome/0.1/faq.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843370">
+        <state relative-caret-position="240">
           <caret line="38335" column="4" selection-start-line="38335" selection-start-column="4" selection-end-line="38335" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_data/lancome/0.1/__init.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1276" column="13" selection-start-line="1276" selection-start-column="13" selection-end-line="1276" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#37#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,73 +629,265 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/WxHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/BaseHandler.py">
+    <entry file="file://$PROJECT_DIR$/train/context.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="254">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="32" />
           <folding>
-            <element signature="e#39#50#0" expanded="true" />
+            <element signature="e#37#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/db_util.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/lib/python3.6/site-packages/deeppavlov/core/models/estimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/asyncio/base_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10142">
-          <caret line="483" selection-start-line="483" selection-end-line="483" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/asyncio/events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2926">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="383">
+          <caret line="21" column="81" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="81" />
           <folding>
-            <element signature="e#37#51#0" expanded="true" />
+            <element signature="e#608#638#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/lib/python3.6/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/lib/python3.6/site-packages/deeppavlov/core/models/serializable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/lib/python3.6/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="1386" column="50" lean-forward="true" selection-start-line="1386" selection-start-column="50" selection-end-line="1386" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#332#456#1" />
+            <element signature="e#973#1181#0" />
+            <element signature="e#1218#1782#0" />
+            <element signature="e#1218#1601#1" />
+            <element signature="e#1817#2222#0" />
+            <element signature="e#1817#2110#1" />
+            <element signature="e#2248#2493#0" />
+            <element signature="e#2248#2427#1" />
+            <element signature="e#2528#2817#0" />
+            <element signature="e#2855#10596#0" />
+            <element signature="e#3003#3584#0" />
+            <element signature="e#3003#3136#1" />
+            <element signature="e#3186#3245#0" />
+            <element signature="e#3449#3564#0" />
+            <element signature="e#3466#3563#0" />
+            <element signature="e#3647#4692#0" />
+            <element signature="e#3953#4669#0" />
+            <element signature="e#4021#4194#0" />
+            <element signature="e#4021#4061#0" />
+            <element signature="e#4553#4669#0" />
+            <element signature="e#4745#5491#0" />
+            <element signature="e#5025#5170#0" />
+            <element signature="e#5025#5065#0" />
+            <element signature="e#5380#5469#0" />
+            <element signature="e#5547#6512#0" />
+            <element signature="e#5547#5776#1" />
+            <element signature="e#6087#6490#0" />
+            <element signature="e#6195#6490#0" />
+            <element signature="e#6320#6387#0" />
+            <element signature="e#6556#7732#0" />
+            <element signature="e#6711#6778#0" />
+            <element signature="e#7496#7603#0" />
+            <element signature="e#7773#8025#0" />
+            <element signature="e#8065#8164#0" />
+            <element signature="e#8204#9035#0" />
+            <element signature="e#8559#8645#0" />
+            <element signature="e#8697#8896#0" />
+            <element signature="e#8924#9035#0" />
+            <element signature="e#9081#10295#0" />
+            <element signature="e#9157#10238#0" />
+            <element signature="e#9305#9568#0" />
+            <element signature="e#9387#9533#0" />
+            <element signature="e#9443#9533#0" />
+            <element signature="e#9603#10050#0" />
+            <element signature="e#9845#10050#0" />
+            <element signature="e#9890#10050#0" />
+            <element signature="e#9897#9980#0" />
+            <element signature="e#10338#10596#0" />
+            <element signature="e#10678#19731#0" />
+            <element signature="e#10678#16764#1" />
+            <element signature="e#17220#17822#0" />
+            <element signature="e#17870#18063#0" />
+            <element signature="e#17870#18043#1" />
+            <element signature="e#18103#18434#0" />
+            <element signature="e#18252#18374#0" />
+            <element signature="e#18286#18373#0" />
+            <element signature="e#18472#19452#0" />
+            <element signature="e#18472#19003#1" />
+            <element signature="e#19060#19182#0" />
+            <element signature="e#19094#19181#0" />
+            <element signature="e#19489#19731#0" />
+            <element signature="e#19766#19996#0" />
+            <element signature="e#20058#36438#0" />
+            <element signature="e#20058#26232#1" />
+            <element signature="e#26671#27654#0" />
+            <element signature="e#27284#27522#0" />
+            <element signature="e#27394#27522#0" />
+            <element signature="e#27709#28170#0" />
+            <element signature="e#27709#27818#1" />
+            <element signature="e#28026#28093#0" />
+            <element signature="e#28283#29839#0" />
+            <element signature="e#28283#28587#1" />
+            <element signature="e#29048#29230#0" />
+            <element signature="e#29407#29579#0" />
+            <element signature="e#29519#29579#0" />
+            <element signature="e#29668#29790#0" />
+            <element signature="e#29685#29789#0" />
+            <element signature="e#29905#31728#0" />
+            <element signature="e#30081#30232#0" />
+            <element signature="e#30438#31058#0" />
+            <element signature="e#30516#30910#0" />
+            <element signature="e#30541#30774#0" />
+            <element signature="e#30828#30910#0" />
+            <element signature="e#31100#31340#0" />
+            <element signature="e#31221#31340#0" />
+            <element signature="e#31238#31339#0" />
+            <element signature="e#31780#32114#0" />
+            <element signature="e#31780#32052#1" />
+            <element signature="e#32176#34199#0" />
+            <element signature="e#32176#32611#1" />
+            <element signature="e#32620#32678#0" />
+            <element signature="e#32843#32965#0" />
+            <element signature="e#32877#32964#0" />
+            <element signature="e#33330#34181#0" />
+            <element signature="e#33773#33859#0" />
+            <element signature="e#34249#35224#0" />
+            <element signature="e#34249#34713#1" />
+            <element signature="e#34782#34904#0" />
+            <element signature="e#34816#34903#0" />
+            <element signature="e#35270#36170#0" />
+            <element signature="e#35270#35562#1" />
+            <element signature="e#35636#35710#0" />
+            <element signature="e#35737#35857#0" />
+            <element signature="e#35737#35793#0" />
+            <element signature="e#36078#36170#0" />
+            <element signature="e#36213#36438#0" />
+            <element signature="e#36327#36438#0" />
+            <element signature="e#36468#36576#0" />
+            <element signature="e#36640#42473#0" />
+            <element signature="e#39778#39903#0" />
+            <element signature="e#39943#40762#0" />
+            <element signature="e#39943#40132#1" />
+            <element signature="e#40234#40741#0" />
+            <element signature="e#40453#40516#0" />
+            <element signature="e#40811#42262#0" />
+            <element signature="e#40811#41241#1" />
+            <element signature="e#41326#41399#0" />
+            <element signature="e#41426#41536#0" />
+            <element signature="e#41621#41667#0" />
+            <element signature="e#41706#42164#0" />
+            <element signature="e#41894#42099#0" />
+            <element signature="e#41911#42024#0" />
+            <element signature="e#42306#42473#0" />
+            <element signature="e#42306#42368#0" />
+            <element signature="e#49762#50441#0" />
+            <element signature="e#50447#50519#0" />
+            <element signature="e#50599#50622#0" />
+            <element signature="e#50676#50700#0" />
+            <element signature="e#50747#50773#0" />
+            <element signature="e#50833#50860#0" />
+            <element signature="e#50910#50939#0" />
+            <element signature="e#51005#51035#0" />
+            <element signature="e#51087#51118#0" />
+            <element signature="e#51188#51220#0" />
+            <element signature="e#51264#51287#0" />
+            <element signature="e#51339#51723#0" />
+            <element signature="e#51339#51606#1" />
+            <element signature="e#51785#52475#0" />
+            <element signature="e#51785#52233#1" />
+            <element signature="e#52339#52392#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/local/lib/python3.6/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2898">
+          <caret line="1161" column="24" lean-forward="true" selection-start-line="1161" selection-start-column="24" selection-end-line="1161" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/lib/python3.6/site-packages/deeppavlov/models/classifiers/logreg_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#608#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/train_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/tfidf_legreg/tfidf_vectorizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/local/lib/python3.6/site-packages/deeppavlov/models/classifiers/keras_classification_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/faq_bot/local/lib/python3.6/site-packages/deeppavlov/models/classifiers/logreg_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="e#608#645#0" expanded="true" />
+            <element signature="e#2810#3737#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/tfidf_legreg/classfier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="264">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
           </folding>

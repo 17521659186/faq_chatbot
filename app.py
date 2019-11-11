@@ -8,15 +8,10 @@ import tornado.options
 import os
 import signal
 import logging
-import backend
-
 from tornado.httpclient import AsyncHTTPClient
 from tornado.options import define, options
-
-
 from bot import Bot
 from chat.WxHandler import MessageHandler
-from settings.setting import MODEL_PATH
 from train.context import PathContext
 
 AsyncHTTPClient.configure(None, max_clients=300)
@@ -80,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("welcome to my world")
