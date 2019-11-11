@@ -14,9 +14,10 @@ if __name__ == '__main__':
     # parser.add_argument('--croups_dir', help='croups_dir', default=TRAIN_DATA_PATH)
     # parser.add_argument('--output_dir', help='output_dir', default=MODEL_PATH)
     # args = parser.parse_args()
+    # print(args)
 
-    config = {"version": '0.1', "bot_id": 'lancome', "croups_dir": '/home/iblue/Downloads/faq_bot/train_data/',
-              "output_dir": '/home/iblue/Downloads/faq_bot/chat_model/'}
+    config = {"version": '0.1', "bot_id": 'lancome', "croups_dir": '/home/iblue/Downloads/faq_chatbot/train_data/',
+              "output_dir": '/home/iblue/Downloads/faq_chatbot/chat_model/'}
 
     async def train_model(loop):
         await train(config,loop)

@@ -4,10 +4,8 @@ import json
 import logging
 import os
 import random
-
 import jieba
 from deeppavlov.models.classifiers.logreg_classifier import LogregClassifier
-
 from faq.tfidf_legreg.tfidf_vectorizer import TfIdfVectorizer
 
 _logger = logging.getLogger(__name__)
